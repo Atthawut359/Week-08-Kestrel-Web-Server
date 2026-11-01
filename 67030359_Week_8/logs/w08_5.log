@@ -1,0 +1,8 @@
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5135
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /Users/attawut/Week08_Kestrel_and_SVG/Lab8-5/Kestrel_Dual_Dashboard
+[DualChannelCommandCenter] Student ID: 67030359 (N = 359)
+[DualChannelCommandCenter] Assigned Pair: Left = #4 (Liquid Level Tank), Right = #2 (Audio VU Meter)
+[DualSerialBridgeWorker] Streaming Dual-Channel Telemetry (CH-A, CH-B) @ 115200 bps
+GET /api/telemetry -> {"studentId":"67030359","channelA":{"name":"Potentiometer (Hardware)","rawValue":1940,"voltage":1.56,"percentage":47.4},"channelB":{"name":"LDR / Optical Sensor","rawValue":3420,"voltage":2.76,"percentage":83.5},"dataSource":"Live ESP32 (/dev/cu.usbserial-0001)"}
